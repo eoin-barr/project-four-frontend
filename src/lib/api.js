@@ -41,7 +41,7 @@ export function getSinglePost(postId) {
 }
 
 export function filterPosts(searchInput) {
-  return axios.get(`${baseUrl}/posts/search?q=${searchInput}`, headers())
+  return axios.get(`${baseUrl}/posts/search?q=${searchInput}/`, headers())
 }
 
 export function savePost(postId) {
