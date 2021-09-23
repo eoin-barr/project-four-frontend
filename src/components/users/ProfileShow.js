@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { useLocation, useParams, useHistory } from 'react-router-dom'
 
 import Error from '../extras/Error'
@@ -240,7 +240,7 @@ function ProfileShow() {
       <Container className="posts-body profile-posts" >
         {userData && savedPosts &&
           userData.savedPosts.map(post => <StandardPostCard post={post} key={post.id} />)}
-        {userData && createdPosts && 
+        {userData && createdPosts &&
           userData.createdPosts.map(post => <StandardPostCard post={post} key={post.id} />)}
       </Container>
     </>
