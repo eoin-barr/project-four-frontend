@@ -5,8 +5,7 @@
 I teamed up with [Harry Evans](https://github.com/hatch9191) for this project as we had worked well together on a [previous project](https://github.com/eoin-barr/project-three-frontend) and were both interested in utilising Django's relational database model to implement social-media features including user messaging and following, ontop of the basic CRUD functionality. This project was built in 7 days with a React frontend and Python & Django backend. Check out the [deployed app here](https://painterest.netlify.app/). Create an account or use Username: Guest Password: pass.
 
 <p align="center">
-  <img style="height:400px;width:auto" src="https://res.cloudinary.com/dk0r9bcxy/image/upload/v1637604544/READMEs/bg-painterest_xklhwn.png
-" />
+  <img style="height:400px;width:auto" src="https://res.cloudinary.com/dk0r9bcxy/image/upload/v1637604544/READMEs/bg-painterest_xklhwn.png" />
 </p>
 
 ### Technologies Used
