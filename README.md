@@ -43,7 +43,7 @@ I teamed up with [Harry Evans](https://github.com/hatch9191) for this project as
 
 We decided our home, image-feed, image-display and user-profile pages would be based on Pinterest's design and the chat pages would be based on WhatsApp's design. We did this to reduce the time needed for wireframing with excalidraw, allowing us to spend more time planning all the functionality we wanted this application to have.
 
-We then moved onto planning out the backend database. To achieve this we used an ERD diagram to help visualise relationships between the tables. We researched methods of imlpementing messages, and ultimately decided against using WebSockets due to time constraints. We settled on creating a ‘chatroom’ for each user-to-user message conversation that would enable us to check if conversations already existed between two users. The Chats would then lend their primary key to all the messages sent between the users.
+We then moved onto planning out the backend database. To help us with this we used an ERD diagram to help visualise relationships between the tables. We researched methods of imlpementing messages, and ultimately decided against using WebSockets due to time constraints. We settled on creating a ‘chatroom’ for each user-to-user message conversation that would enable us to check if conversations already existed between two users. The Chats would then lend their primary key to all the messages sent between the users.
 
 With our theory now clear, we first built out the rest of the backend that we were confident in doing, before tackling the messaging views. We found many interesting ways of filtering in Django, however, we ultimately decided to use the Q object, which allowed us to make more complex filters.
 
